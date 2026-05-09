@@ -38,5 +38,15 @@ Tools we use for managing these fault tolerant systems are
 - Key problem where we have any replicated system, both of the instances will drift away from each other and stop being replicated system.
 ## Map Reduce
 
+Its a framework built by Google which is basically first step of building any kind of distributed system
+
+Ingesting a file in chunks by different workers and then mixing it and producing a consistent data.
+
+Advance systems can have multiple mp reduce stages in order to make get to the final optimized and calculated state of the data 
+
+The whole point of map reduce is that we cant read petabytes of data sequentially we need to parallalyse it .
+
+The most constraining part of this thing was Network and not the machines.
+
 
 
